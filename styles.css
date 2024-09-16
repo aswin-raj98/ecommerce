@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: #FFEDDB;
+}
+
+header {
+    
+    font-family: monospace;
+    font-size: larger;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.featured{
+    font-family: serif;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #BF9270;
+}
+h1 {
+    font-size: 52px;
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+header .logo h1 {
+    margin: 0;
+    font-size: 48px;
+    font-style: initial;
+    
+}
+
+.align ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.align ul li a {
+    
+    text-decoration: none;
+}
+.cen{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.hero {
+    margin-top: 0px;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #EDCDBB;
+}
+.logo{
+    float: right;
+
+}
+
+/* .hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+} */
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: thin;
+    cursor: pointer;
+    
+}
+
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.product-card {
+    border: 1px solid;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.product-card p {
+    font-size: 18px;
+}
+
+.product-card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    background-color: #BF9270;
+    color: black;
+}
+
+footer p {
+    margin: 0;
+}
+
+ul {
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #BF9270;
+
+} 
+  li {
+    float: left;
+  }
+  
+  li a, .drop {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+  }
+  
+  li a:hover, .dropdown:hover .drop {
+    border-radius: 5px;
+    background-color: #BF9270;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+.content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 5px 10px 0px black;
+    z-index: 1;
+    border-radius: 5px;
+  }
+
+ul.headerr{
+    padding: 0px 10px;
+    text-align: center;
+    /* background-color: #EDCDBB; */
+}
+.headerr img{
+    width: 50px;
+    height: 50px;
+}
+
+.content a {
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+  }
+.dropdown:hover .content {
+    display: block;
+}
+
+.product-card img:hover{
+    opacity: .8;
+}
+.page{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.page a {
+    
+    padding: 8px 16px ;
+    float: left;
+    text-decoration: solid;
+}
+.liquid{
+    background-color: #BF9270;
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+.dhall{
+    background-color: #BF9270;
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+.soap{
+    background-color: #BF9270;
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+
+.cleaners{
+    background-color: #BF9270;
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+.rice{
+    background-color: #BF9270;
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+.biscuits{
+    background-color: #BF9270;
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+button{
+    border-radius: 5px;
+    background-color: #E3B7A0;
+}
+button:hover{
+    background-color: #BF9270;
+}
+.categories{
+    padding: 40px 20px;
+    text-align: center;
+}
+.shopby{
+    border-radius: 10px;
+    background-color: #BF9270;
+}
+input[type=text] {
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    transition: width 0.4s ease-in-out;
+    box-sizing: border-box;
+  border: 2px solid #BF9270;
+  font-size: 16px;
+  background-color: #FFEDDB;
+  background-image: url('search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  input[type=text]:focus {
+    width: 50%;
+    
+  }
+  .map{
+      border-radius: 10px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .maps{
+      width: 30px;
+      height: 30px;   
+  }
+  
